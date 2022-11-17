@@ -1,0 +1,322 @@
+    1  sudo apt install ibus-pinyin
+    2  sudo apt update4
+    3  sudo apt update
+    4  sudo apt list --upgradable
+    5  sudo apt upgrade
+    6  sudo apt install ibus-pinyin
+    7  sudo apt install curl
+    8  ibus-setup
+    9  sudo reboot now
+   10  sudo apt install python3-pip
+   11  pip3 install --upgrade pip
+   12  sudo apt install python3-pyqt5
+   13  sudo apt install python3-pyqt5.*
+   14  pip3 install pyqt5-tools
+   15  pip3 install pyqt5-dev-tools
+   16  sudo apt update
+   17  sudo apt upgrade
+   18  pip3 install pyqt5-dev-tools
+   19  sudo apt install qttools5-dev-tools
+   20  designer 
+   21  /usr/lib/aarch64-linux-gnu/qt5/bin/designer 
+   22  ls
+   23  git clone https://github.com/restuie/WebCam-pyqt5-opencv.git
+   24  cd WebCam-pyqt5-opencv/
+   25  ls
+   26  cp main.ui ~/
+   27  cd ../
+   28  sudo apt install curl
+   29  ls
+   30  mv 下載/code_1.72.2-1665612990_arm64.deb ~/
+   31  sudo dpkg -i code_1.72.2-1665612990_arm64.deb 
+   32  code .
+   33  cd WebCam-pyqt5-opencv/
+   34  ls
+   35  code .
+   36  sudo raspi-config
+   37  sudo i2cdetect -y 1
+   38  sudo i2cdetect -y 2
+   39  sudo i2cdetect -y 1
+   40  sudo pip3 install smbus2 pymlx90614
+   41  cd ../
+   42  git clone https://github.com/SERC-IoT/Starter-MLX90614-IR-Temperature-Sensor.git
+   43  ls
+   44  mv Starter-MLX90614-IR-Temperature-Sensor mlx90614-test
+   45  cd mlx90614-test/
+   46  ls
+   47  l
+   48  ll
+   49  mkdir JiaChi
+   50  mv test.ui JiaChi/main.ui
+   51  ls
+   52  cd JiaChi/
+   53  ls
+   54  pyuic5 -x main.ui -o main.py
+   55  pyuic6
+   56  pyuic5
+   57  sudo apt install pyqt5-dev-tools
+   58  sudo apt install qttools5-dev-tools
+   59  ls
+   60  pyuic5
+   61  pyuic5 -x main.ui -o main.py
+   62  python3 main.py 
+   63  code .
+   64  rm main.py 
+   65  ls
+   66  mv main.ui UI.ui
+   67  ls
+   68  pyuic5 -x UI.ui -o UI.py\
+   69  pyuic5 -x UI.ui -o UI.py
+   70  code .
+   71  ls
+   72  ifconfig
+   73  ipconfig
+   74  ifconfig
+   75  ls
+   76  history 
+   77  pyuic5 -x UI.ui -o UI.py
+   78  code
+   79  sudo raspi-confiug
+   80  sudo raspi-config
+   81  ls
+   82  cd mlx90614-test/
+   83  ls
+   84  cd raspberry-pi/
+   85  ls
+   86  chmod +x config.sh 
+   87  ./config.sh 
+   88  sudo raspi-config
+   89  sudo i2cdetect -y 1
+   90  ls
+   91  cd assets/
+   92  ls
+   93  cd ../
+   94  ll
+   95  cd python/
+   96  ls
+   97  python3 read_temperature.py 
+   98  code .
+   99  pip3 install PyMLX90614
+  100  python3 read_temperature.py 
+  101  code .
+  102  ls
+  103  cp read_temperature.py ~/JiaChi/
+  104  cd JiaChi/
+  105  code .
+  106  cd ..
+  107  sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
+  108  sudo sh -c 'echo 175 > /sys/devices/pwm-fan/target_pwm'
+  109  cd /etc/
+  110  sudo touch rc.local
+  111  sudo chmod u+x rc.local 
+  112  sudo vim rc.local
+  113  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  114  ls /usr/local
+  115  /usr/bin/python3 /home/eecs/JiaChi/addTemp.py
+  116  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  117  /usr/bin/python3 /home/eecs/JiaChi/addTemp.py
+  118  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  119  clear
+  120  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  121  sudo pip install Jetson.GPIO
+  122  sudo pip3 install Jetson.GPIO
+  123  sudo groupadd -f -r gpio
+  124  sudo usermod -a -G gpio eecs
+  125  witch python
+  126  which python
+  127  sudo pip3 install Jetson.GPIO
+  128  ls /usr/lib/python3/
+  129  ls /usr/lib/python3/dist-packages/
+  130  ls /opt/nvidia/jetson-io/
+  131  ls /opt/nvidia/jetson-io/Linux/
+  132  ls /opt/nvidia/jetson-io/Jetson/
+  133  ls /opt/nvidia/jetson-io/Headers/
+  134  ls /opt/nvidia/jetson-io/Utils
+  135  pip3 list
+  136  sudo pip3 -m install Jetson.GPIO
+  137  sudo pip3 install Jetson.GPIO
+  138  sudo python3 -m pip install Jeston.GPIO
+  139  cd /opt/nvidia/jetson-io/
+  140  cd ../
+  141  cd jetson-gpio
+  142  ls
+  143  cd jetson-io/
+  144  ls
+  145  cd ../
+  146  cd 
+  147  git clone https://github.com/NVIDIA/jetson-gpio.git
+  148  ls
+  149  cd jetson-gpio/
+  150  sudo python3 setup.py install
+  151  sudo python3
+  152  python3
+  153  cd ../JiaChi/
+  154  code .
+  155  cd ../
+  156  sudo apt install autoconf-archive
+  157  git clone git://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
+  158  cd libgpiod/
+  159  ls
+  160  git checkout v1.6.3 -b v1.6.3
+  161  ./autogen.sh --enble-tools=yes --prefix=/usr/local --enble-bindings-python
+  162  make
+  163  ./autogen.sh --enble-tools=yes --prefix=/usr/local --enble-bindings-python
+  164  make
+  165  sudo make install
+  166  /usr/bin/python3 /home/eecs/JiaChi/weigh.py
+  167  clear
+  168  /usr/bin/python3 /home/eecs/JiaChi/weigh.py
+  169  /usr/bin/python3 /home/eecs/JiaChi/con.py
+  170  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  171  /usr/bin/python3 /home/eecs/JiaChi/con.py
+  172  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  173  /usr/bin/python3 /home/eecs/JiaChi/con.py
+  174  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  175  clear
+  176  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  177  df -h
+  178  df
+  179  df -h
+  180  df
+  181  clear
+  182  sudo chmod 777 /dev/ttyUSB1
+  183  python3
+  184  cd Jia
+  185  cd JiaChi/
+  186  code .
+  187  ls /dev/ttyUSB1 
+  188  sudo chmod 777 /dev/ttyUSB1 
+  189  ls
+  190  history 
+  191  pyuic5 -x UI.ui -o UI.py
+  192  cd JiaChi/
+  193  ls
+  194  code .
+  195  python3
+  196  pip3 install pyserial
+  197  python3
+  198  sudo python3
+  199  sudo chmod 777 /dev/ttyUSB0 
+  200  python3
+  201  sudo apt update
+  202  sudo apt upgrade
+  203  sudo apt install gfortran
+  204  sudo apt update
+  205  sudo apt install libhdf5-dev libc-ares-dev libeignen3-dev
+  206  sudo apt install libhdf5-dev libc-ares-dev libeigen3-dev
+  207  sudo apt install liblapack-dev
+  208  sudo pip3 install Cython
+  209  sudo -H pip3 install Cython
+  210  sudo -H pip3 install h5pu
+  211  sudo -H pip3 install h5py
+  212  dd
+  213  sudo -H pip3 install h5py==2.10.0
+  214  sudo -H pip3 install --upgrade setuptools
+  215  sudo -H pip3 install -U testresources numpy
+  216  sudo pip3 install -U numpy==1.21.1 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
+  217  sudo pip3 install -U future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
+  218  sudo pip3 install -U future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging
+  219  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow
+  220  sudo pip3 install tensorflow
+  221  sudo pip3 install tensorflow==2.10.0
+  222  sudo -H pip3 install tensorflow==2.10.0
+  223  sudo -H pip3 install tensorflow
+  224  python3 -m pip install --upgrade
+  225  python3 -m pip3 install --upgrade
+  226  python3
+  227  pip3 install tensorflow-gpu
+  228  python3 cam.py 
+  229  vim cam
+  230  vim cam.py 
+  231  vim cam2.py 
+  232  ls
+  233  pip3 list
+  234  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow
+  235  pip3 install --upgrade tensorflow
+  236  $ sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+  237  sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+  238  sudo pip3 install -U pip testresources setuptools==59.6.0
+  239  sudo apt-get install python3-pip
+  240  sudo apt autoremove
+  241  sudo pip3 install -U pip testresources setuptools==65.5.0 
+  242  sudo pip3 install -U pip testresources setuptools==59.5.0 
+  243  $ sudo pip3 install -U numpy==1.21.1 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
+  244  sudo pip3 install -U numpy==1.21.1 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
+  245  sudo pip3 install -U numpy==1.19.5 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.6.0
+  246  sudo pip3 install -U numpy==1.19.5 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging h5py==3.1.0
+  247  sudo pip3 install -U h5py==3.0.0
+  248  $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow
+  249  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow
+  250  sudo -H pip3 install tensorflow-2.4.1-cp36-cp36m-linux_aarch64.whl
+  251  pip3 list
+  252  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 'tensorflow<2'
+  253  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow==2.10.0
+  254  sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow==2.4.0
+  255  sudo pip3 install tensorflow
+  256  sudo -H  pip3 install tensorflow
+  257  sudo -H pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v50 tensorflow==2.4.0
+  258  pip install --upgrade pip
+  259  pip install tensorflow
+  260  pip3 version
+  261  sudo pip3 install --pre --extra-index-url
+  262  pip3 --version
+  263  cat /etc/nv_tegra_release
+  264  sudo -H pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow==2.5.0+nv21.08
+  265  python
+  266  python3
+  267  pip3 list
+  268  cd ten
+  269  python3 scripts/label_image.py 
+  270  cd scripts/
+  271  code .
+  272  python3 label_image.py 
+  273  cd ../
+  274  python3 scripts/label_image.py 
+  275  pip3 list
+  276  python3 scripts/label_image.py 
+  277  pip3 install Pillow
+  278  python3 scripts/label_image.py 
+  279  code .
+  280  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  281  sudo chmod 777 /dev/ttyUSB0 
+  282  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  283  sudo chmod 777 /dev/ttyUSB0 
+  284  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  285  sudo chmod 777 /dev/ttyUSB0 
+  286  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  287  cd JiaChi/
+  288  ls
+  289  python3 weigh
+  290  python3 weigh.py 
+  291  vim weigh
+  292  vim weigh.py 
+  293  python3 weightandheat.py 
+  294  python3 con.py 
+  295  chmod +x /dev/ttyUSB1
+  296  python3 con.py 
+  297  chmod +x /dev/ttyUSB0
+  298  sudo chmod +x /dev/ttyUSB0
+  299  python3 con.py 
+  300  history 
+  301  sudo chmod 777 /dev/ttyUSB0 
+  302  python3 con.py 
+  303  code .
+  304  sudo chmod 777 /dev/ttyUSB0 
+  305  sudo chmod +x /dev/ttyUSB0 
+  306  sudo chmod 777 /dev/ttyUSB0 
+  307  history 
+  308  pyuic5 -x UI.ui -o UI.py
+  309  /usr/bin/python3 /home/eecs/JiaChi/weightandheat.py
+  310  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  311  sudo chmod 777 /dev/ttyUSB0 
+  312  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  313  /usr/bin/python3 /home/eecs/JiaChi/weightandheat.py
+  314  sudo chmod 777 /dev/ttyUSB0 
+  315  /usr/bin/python3 /home/eecs/JiaChi/weightandheat.py
+  316  /usr/bin/python3 /home/eecs/JiaChi/main.py
+  317  cd JiaChi/
+  318  code .
+  319  sudo shutdown
+  320  sudo shutdown now
+  321  cd JiaChi/
+  322  history > JiaChi-history.txt

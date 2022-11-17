@@ -1,0 +1,12 @@
+
+腳位 15V=PIN12  70V=PIN13 75V=PIN15 蜂鳴器=PIN16
+HX711 VCC接到esp32的3V3 DT接到esp32的P16 SCK接到esp32的P4 GND接到esp32的GND
+溫度感測器 SDA接到PIN3 SCL接到PIN5
+
+測試溫度感測器 sudo python 90614
+第一次開機時以及重新插拔esp32之電源線後 荷重元下方不可掛載重量 等待10秒後才可掛載重量
+
+掛載重量後使用以下指令即可開始秤重以及自動加熱
+sudo python weightandheat.py
+
+sudo python off.py
